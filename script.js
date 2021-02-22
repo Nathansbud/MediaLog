@@ -73,10 +73,16 @@ window.onload = () => {
             const sn = document.createElement("span")
             sn.textContent = i
 
-            if(!t.unwatched && !t.unfinished) sn.classList.add("watched")
-            else if(t.unwatched && t.unwatched.includes(i)) sn.classList.add('unwatched')
-            else if(t.unfinished && t.unfinished == i) sn.classList.add('unfinished')
-            
+            if(!t.unwatched && !t.unfinished && !t.abandoned) sn.classList.add("watched")
+            else if(t.unfinished == i || (Array.isArray(t.unfinished) && t.unfinished?.includes(i))) {
+                sn.classList.add('unfinished')
+            }
+            else if(t.abandoned == i || (Array.isArray(t.abandoned) && t.abandoned?.includes(i))) {
+                sn.classList.add('abandoned')
+            } 
+            else if(t.unwatched?.includes(i)) sn.classList.add('unwatched')
+            else sn.classList.add('saw')
+
             tooltipDiv.appendChild(sn)
             if(i != t.seasons) tooltipDiv.appendChild(document.createTextNode("-"))
             if(t.watches && t.watches[i]) {

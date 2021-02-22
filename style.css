@@ -1,71 +1,80 @@
 * {
-    font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
-h1, h2, h3.legend {
-    padding: 10px;
+h1,
+h2,
+h3.legend {
+  padding: 10px;
 }
 
 ul.nav {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background: black;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: black;
 }
 
 ul.nav li {
-    float: left;
+  float: left;
 }
 
 ul.nav li a {
-    text-decoration: none;
-    display: block;
-    background: black;
-    color: white;
-    border: 2px solid black;
-    padding: 10px;
+  text-decoration: none;
+  display: block;
+  background: black;
+  color: white;
+  border: 2px solid black;
+  padding: 10px;
 }
 
 ul.nav li a:hover {
-    transition: 0.5s;
-    background: grey;
-    border: 2px solid grey;
+  transition: 0.5s;
+  background: grey;
+  border: 2px solid grey;
 }
 
 .unfinished {
-    color: purple;
+  color: purple;
+}
+
+.abandoned {
+  color: red;
 }
 
 .unwatched {
-    color: red;
+  color: darkslategray;
 }
 
 .rewatched {
-    color: green!important;
-    cursor: pointer;
+  color: blue !important;
+  cursor: pointer;
 }
 
 .watched {
-    color: blue;
+  color: orange;
+}
+
+.saw {
+  color: green;
 }
 
 #movies {
-    display: none;
+  display: none;
 }
 
 #tv {
-    display: block;
+  display: block;
 }
 
 #search {
-    float: right;
+  float: right;
 }
 
 .season_div {
-    display: inline
+  display: inline;
 }
-
 
 /* SC: https://www.w3schools.com/css/css_tooltip.asp */
 .tooltip {
@@ -92,8 +101,11 @@ ul.nav li a:hover {
   visibility: visible;
 }
 
+.tooltip > span {
+  font-weight: bold;
+}
+
 .watched > .tooltiptext {
-    cursor: pointer;
+  cursor: pointer;
 }
 /* EC */
-
