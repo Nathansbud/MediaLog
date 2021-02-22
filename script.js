@@ -99,6 +99,7 @@ window.onload = () => {
         tvList.appendChild(elem)
     })
 
+    let currPeriod = ""
     books.reverse().forEach(b => {
         if(typeof b != 'string') {
             const n = document.createElement("li")
@@ -113,16 +114,24 @@ window.onload = () => {
             n.appendChild(sn)
             const tn = document.createTextNode("]")
             n.appendChild(tn)
-            n.setAttribute("class", "book_item item")
             n.setAttribute("data-name", b.name.toLowerCase() + " " + b.series['name'].toLowerCase() + " " + b.author.toLowerCase())
+            n.classList.add("book_item", "item")
+            n.dataset.period = currPeriod
+            
             bookList.appendChild(n)
         } else {
+            currPeriod = b
+            const periodDiv = document.createElement('div')
             const hr = document.createElement("hr")
             const header = document.createElement("h3")
+            
             header.textContent = b
             
-            bookList.appendChild(hr)
-            bookList.appendChild(header)
+            
+            periodDiv.append(hr, header)
+            periodDiv.classList.add('period_header')
+            periodDiv.dataset.period = b
+            bookList.append(periodDiv)
         }
     })   
 
@@ -134,18 +143,23 @@ window.onload = () => {
 
 function filterItems() {
     const items = document.getElementsByClassName("item")
+    const headers = document.getElementsByClassName("period_header")
+    const periods = {}
+    
     if(searchbar.value === "") {
-        for(let i = 0; i < items.length; i++) {
-            items[i].style.display = "list-item"
-        }
+        Array.from(items).forEach(item => item.style.display = 'list-item')
+        Array.from(headers).forEach(h => h.style.display = 'block')
     } else {
         for(let i = 0; i < items.length; i++) {
             if(!items[i].getAttribute("data-name").includes(searchbar.value.toLowerCase())) {
                 items[i].style.display = "none"
             } else {
                 items[i].style.display = "list-item"
+                periods[items[i].dataset.period] = (periods[items[i].dataset.period] || 0) + 1
             }
         }
+
+        Array.from(headers).forEach(h => h.style.display = (h.dataset.period in periods) ? 'block' : 'none')
     }
 }
 
