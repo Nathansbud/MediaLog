@@ -1,5 +1,3 @@
-// import {movies, tv, books} from './data/media'
-
 const movieList = document.getElementById("movie_list")
 const movieDiv = document.getElementById("movies")
 
@@ -25,7 +23,6 @@ const nameSort = (a, b) => {
 window.onload = () => {
     movies.sort(nameSort)
     tv.sort(nameSort)
-    // books.sort(nameSort)
     
     movies.forEach(m => {
         const elem = document.createElement("li")
@@ -100,7 +97,7 @@ window.onload = () => {
     })
 
     let currPeriod = ""
-    books.reverse().forEach(b => {
+    books.reverse().forEach((b, i) => {
         if(typeof b != 'string') {
             const n = document.createElement("li")
             
@@ -127,8 +124,11 @@ window.onload = () => {
             
             header.textContent = b
             
-            
-            periodDiv.append(hr, header)
+            if(i !== 0) {
+                periodDiv.append(hr, header)
+            } else {
+                periodDiv.append(header)
+            }
             periodDiv.classList.add('period_header')
             periodDiv.dataset.period = b
             bookList.append(periodDiv)
