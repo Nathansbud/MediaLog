@@ -8,6 +8,10 @@ h3.legend {
   padding: 10px;
 }
 
+.legend span {
+  cursor: pointer;
+}
+
 ul.nav {
   list-style-type: none;
   margin: 0;
