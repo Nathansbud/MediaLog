@@ -70,6 +70,7 @@ let movies = [
     {"name":"Definitely, Maybe"},
     {"name":"Despicable Me"},
     {"name":"Despicable Me 2"},
+    {"name":"Destiny Deoxys"},
     {"name":"The Devil Wears Prada"},
     {"name":"Divergent"},
     {"name":"Doctor Strange"},
@@ -165,6 +166,7 @@ let movies = [
     {"name":"Instellar"},
     {"name":"The Iron Giant"},
     {"name":"Jaws"},
+    {"name":"Jirachi — Wish Maker"},
     {"name":"John Mulaney: The Comeback Kid", "watches":3},
     {"name":"John Mulaney: Kid Gorgeous at Radio City", "watches":2},
     {"name":"John Mulaney: New in Town", "watches":3},
@@ -193,6 +195,7 @@ let movies = [
     {"name":"Lost in Translation"},
     {"name":"Love and Monsters"},
     {"name":"The Love Guru"},
+    {"name":"Lucario and the Mystery of Mew"}, 
     {"name":"Madagascar"},
     {"name":"Madagascar 2"},
     {"name":"Madagascar 3: Europe's Most Wanted"},
@@ -249,8 +252,13 @@ let movies = [
     {"name":"Pinocchio"},
     {"name":"Plus One"},
     {"name":"The Polar Express"},
-    {"name":"Pokémon 2000"},
+    {"name":"Pokémon: The First Movie - Mewtwo Strikes Back"},
+    {"name":"Pokémon: The Movie 2000 - The Power of One"},
+    {"name":"Pokémon 3: The Movie - Spell of the Unown"},
+    {"name":"Pokémon 4Ever: Celebi - Voice of the Forest"},
     {"name":"Pokémon Detective Pikachu"},
+    {"name":"Pokémon Heroes: Latios and Latias"},
+    {"name":"Pokémon Ranger and the Temple of the Sea"},
     {"name":"Popstar: Never Stop Stopping"},
     {"name":"The Princess and the Frog"},
     {"name":"The Princess Bride"},
@@ -258,6 +266,7 @@ let movies = [
     {"name":"Ratatouille"},
     {"name":"The Ridiculous 6"},
     {"name":"Rio"},
+    {"name":"The Rise of Darkrai"},    
     {"name":"Rise of the Guardians"},
     {"name":"Ronny Chieng: Asian Comedian Destroys America!", "watches":2},
     {"name":"Salmon Fishing in the Yemen"},
@@ -408,7 +417,7 @@ let tv = [
     {"name":"Steins;Gate", "seasons":1},
     {"name":"Steins;Gate 0", "seasons":1},
     {"name":"Succession", "seasons":2},
-    {"name":"Ted Lasso", "seasons":1},
+    {"name":"Ted Lasso", "seasons":1, "watches":{1: 2}},
     {"name":"Tiger King", "seasons":1},		
     {"name":"That Time I Got Reincarnated as a Slime", "seasons":1},
     {"name":"Toast of London", "seasons":3},
@@ -791,6 +800,7 @@ let books = [
     {"name":"Macbeth", "author":"William Shakespeare", "date": 2020},
     {"name":"Little Fires Everywhere", "author":"Celeste Ng", "date": 2020},
     {"name":"Pride and Prejudice", "author":"Jane Austen", "date":2020},
+    "2020",
 
     {"name":"Eric", "author":"Terry Pratchett", "series":{"name":"Discworld", "book":9}, "date": 2021},
     {"name":"Brain on Fire: My Month of Madness", "author":"Susannah Cahalan", "date": 2021},
@@ -803,4 +813,9 @@ let books = [
     {"name":"Hamlet", "author":"William Shakespeare", "date": "2021-02-12"},
     {"name":"Witches Abroad", "author":"Terry Pratchett", "series":{"name":"Discworld", "book":12}, "date": "2021-02-14"},
     {"name":"Those Who Leave and Those Who Stay", "author":"Elena Ferrante", "series":{"name":"Neopolitan Novels", "book":3}, "date": "2021-02-20"},    
+
+    {"name":"A Little Hatred", "author":"Joe Abercrombie", "series":{"name":"The Age of Madness", "book":1}, "date": "2021-03-01"},    
+
+
+    "2021"
 ]
