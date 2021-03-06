@@ -802,8 +802,8 @@ let books = [
     {"name":"Pride and Prejudice", "author":"Jane Austen", "date":2020},
     "2020",
 
-    {"name":"Eric", "author":"Terry Pratchett", "series":{"name":"Discworld", "book":9}, "date": 2021},
-    {"name":"Brain on Fire: My Month of Madness", "author":"Susannah Cahalan", "date": 2021},
+    {"name":"Eric", "author":"Terry Pratchett", "series":{"name":"Discworld", "book":9}, "date": "2020-01-01"},
+    {"name":"Brain on Fire: My Month of Madness", "author":"Susannah Cahalan", "date": "2020-01-05"},
     {"name":"My Brilliant Friend", "author":"Elena Ferrante", "series":{"name":"Neopolitan Novels", "book":1}, "date": "2021-01-15"},
     {"name":"Moving Pictures", "author":"Terry Pratchett", "series":{"name":"Discworld", "book":10}, "date": "2021-01-23"},
     {"name":"Manifesto of the Communist Party", "author":"Karl Marx and Friedrich Engels", "date":"2021-01-24"},
@@ -815,7 +815,6 @@ let books = [
     {"name":"Those Who Leave and Those Who Stay", "author":"Elena Ferrante", "series":{"name":"Neopolitan Novels", "book":3}, "date": "2021-02-20"},    
 
     {"name":"A Little Hatred", "author":"Joe Abercrombie", "series":{"name":"The Age of Madness", "book":1}, "date": "2021-03-01"},    
-
-
+    {"name":"The Trouble With Peace", "author":"Joe Abercrombie", "series":{"name":"The Age of Madness", "book":2}, "date": "2021-03-06"},    
     "2021"
 ]
