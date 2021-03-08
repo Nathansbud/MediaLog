@@ -24,6 +24,13 @@ ul.nav li {
   float: left;
 }
 
+sup a,
+sup a:visited {
+  color: #007aca;
+  font-size: x-large;
+  text-decoration: none;
+}
+
 ul.nav li a {
   text-decoration: none;
   display: block;
