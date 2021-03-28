@@ -101,18 +101,26 @@ window.onload = () => {
         if(typeof b != 'string') {
             const n = document.createElement("li")
             
-            n.textContent = b.name + " ["
+            n.textContent = b.name 
             const sn = document.createElement("span")
             if(!('series' in b)) b['series'] = {'name':"", "book":""}
             else if(typeof b['series'] == "string") b['series'] = {'name':b['series'], "book":""}
 
-            sn.textContent = [b['author'], b['series']['name'], b['series']['book']].filter(p => !!p).join(" | ")
+            sn.textContent = (' [' + [
+                b.author, 
+                b.series?.name,
+                b.series?.book
+            ].filter(p => !!p).join(" | ") + ']')
+            
+            if(b.progress) sn.textContent += ' @ ' + (b.progress.chapter ? `Chapter ${b.progress.chapter}` : `@ Page ${b.progress.page}`)
+
 
             n.appendChild(sn)
-            const tn = document.createTextNode("]")
-            n.appendChild(tn)
             n.setAttribute("data-name", b.name.toLowerCase() + " " + b.series['name'].toLowerCase() + " " + b.author.toLowerCase())
             n.classList.add("book_item", "item")
+            
+            if(b['progress']) n.classList.add('unfinished')
+
             n.dataset.period = currPeriod
             
             bookList.appendChild(n)
