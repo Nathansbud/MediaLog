@@ -371,7 +371,7 @@ let tv = [
     {"name":"Dead to Me", "seasons":2},
     {"name":"Deca-Dence", "seasons":1},
     {"name":"Derry Girls", "seasons":2},
-    {"name":"Dr. Stone", "seasons":2, "unfinished": 2},      
+    {"name":"Dr. Stone", "seasons":2},      
     {"name":"The End of the F***ing World", "seasons":2, "unwatched":[2], "watches":{1:2}},
     {"name":"Fleabag", "seasons":2, "watches":{1:3, 2:2}},
     {"name":"Freaks and Geeks", "seasons":1},
@@ -391,10 +391,11 @@ let tv = [
     {"name":"I Think You Should Leave", "seasons":1},
     {"name":"It's Always Sunny in Philadelphia", "seasons":14, "abandoned":4, "unwatched":[5, 6, 7, 8, 9, 10, 11, 12, 13, 14]},
     {"name":"Jojo's Bizarre Adventure", "seasons":5, "watches":{1:2}},
+    {"name":"Lost", "seasons":6, "unfinished": 2, "unwatched": [2, 3, 4, 5, 6]},
     {"name":"Lovesick", "seasons":3},
     {"name":"Lucifer", "seasons":6, "abandoned":4, "unwatched":[5, 6]},
     {"name":"Lupin", "seasons":1, "unfinished":1},
-    {"name": "Made In Abyss", "seasons":1},
+    {"name":"Made In Abyss", "seasons":1},
     {"name":"The Marvelous Mrs. Maisel", "seasons":3, "unwatched":[3]},
     {"name":"Master of None", "seasons":2, "watches":{1:3, 2:2}},
     {"name":"Middleditch & Schwartz", "seasons":1},
@@ -816,5 +817,8 @@ let books = [
 
     {"name":"A Little Hatred", "author":"Joe Abercrombie", "series":{"name":"The Age of Madness", "book":1}, "date": "2021-03-01"},    
     {"name":"The Trouble With Peace", "author":"Joe Abercrombie", "series":{"name":"The Age of Madness", "book":2}, "date": "2021-03-06"},    
+	{"name":"Small Gods", "author":"Terry Pratchett", "series":{"name":"Discworld", "book":13}, "date": "2021-03-10"},
+	{"name":"The Story of the Lost Child", "author":"Elena Ferrante", "series":{"name":"Neopolitan Novels", "book":4}, "date": "2021-03-14"},
+	{"name":"One Piece", "author":"Eiichiro Oda", "progress": {"started": "2021-03-15", "chapter": 213}},
     "2021"
 ]
