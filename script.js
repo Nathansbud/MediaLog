@@ -112,7 +112,12 @@ window.onload = () => {
                 b.series?.book
             ].filter(p => !!p).join(" | ") + ']')
             
-            if(b.progress) sn.textContent += ' @ ' + (b.progress.chapter ? `Chapter ${b.progress.chapter}` : `@ Page ${b.progress.page}`)
+            if(b.progress) 
+                sn.textContent += ' ' + (
+                    b.progress.chapter ? `@ Chapter ${b.progress.chapter}` : 
+                    b.progress.page ? `@ Page ${b.progress.page}` :
+                    b.progress.percent ? `@ ${b.progress.percent}%` : ''
+                )
 
 
             n.appendChild(sn)
