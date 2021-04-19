@@ -236,7 +236,7 @@ let movies = [
     {"name":"Night at the Museum 3"},
     {"name":"Nim's Island"},
     {"name":"The Odd Life of Timony Green"},
-    {"name":"Office Space"},
+    {"name":"Office Space", "watches": 2},
     {"name":"One Night in Miami"},
     {"name":"Open Season"},
     {"name":"Open Season 2"},
@@ -356,6 +356,7 @@ let tv = [
     {"name":"Arrested Development", "seasons":3, "watches":{1:2, 2:2, 3:2}},
     {"name":"Atlanta", "seasons":2},
     {"name":"Attack on Titan", "seasons":4, "unfinished": 4},
+    {"name":"Barry", "seasons":2, "unwatched":[2]},
     {"name":"Better Off Ted", "seasons":2},
     {"name":"Big Brother", "seasons":21, "unwatched":[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 17, 21]},
     {"name":"Big Mouth", "seasons":4},
@@ -536,7 +537,6 @@ let books = [
     {"name":"Fablehaven: Grip of the Shadow Plague", "author":"Brandon Mull", "series":{"name":"Fablehaven", "book":3}},
     {"name":"Fablehaven: Secrets of the Dragon Sanctuary", "author":"Brandon Mull", "series":{"name": "Fablehaven", "book":4}},
     {"name":"Fablehaven: Keys to the Demon Prison", "author":"Brandon Mull", "series":{"name":"Fablehaven", "book":5}},
-    {"name": "Code Name Verity", "author": "Elizabeth Wein"},
 
     {"name":"How to Train Your Dragon", "author":"Cressida Cowell", "series":"How to Train Your Dragon"},
     {"name":"How to Be A Pirate", "author":"Cressida Cowell", "series":"How to Train Your Dragon"},
@@ -577,14 +577,14 @@ let books = [
     {"name":"Eon: Dragoneye Reborn", "author":"Alison Goodman", "series":{"name": "Eon", "book": 1}, "finished": 2013},
     {"name":"Eona: The Last Dragoneye", "author":"Alison Goodman", "series":{"name": "Eon", "book": 2}, "finished": 2013},
     {"name":"Kingdom Keepers", "author":"Ridley Pearson", "series":{"name": "The Kingdom Keepers", "book": 1}, "finished": 2013},
-    {"name": "The Dead Days Omnibus", "author": "Marcus Sedgwick", "finished": 2013},
-    {"name": "The Grimm Legacy", "author": "Polly Shulman", "finished": 2013},
-	{"name": "Incarceron", "author": "Catherine Fisher", "series": {"name": "Incarceron", "book": 1}, "finished": 2013},
-    {"name": "Traitor", "author": "Andy McNab", "series": {"name": "Boy Soldier", "book": 1}, "finished": 2013},
-    {"name": "The True Meaning of Smekday", "author": "Adam Rex", "series": {"name": "Smek Smeries", "book": 1}, "finished": 2013},
-    {"name": "Z", "author": "Michael Thomas Ford", "finished": 2013},
-    {"name": "The Tomorrow Code", "author": "Brian Falkner", "finished": 2013},
-    {"name": "The Water Wars", "author": "Cameron Stracher", "finished": 2013},		
+    {"name":"The Dead Days Omnibus", "author": "Marcus Sedgwick", "finished": 2013},
+    {"name":"The Grimm Legacy", "author": "Polly Shulman", "finished": 2013},
+	{"name":"Incarceron", "author": "Catherine Fisher", "series": {"name": "Incarceron", "book": 1}, "finished": 2013},
+    {"name":"Traitor", "author": "Andy McNab", "series": {"name": "Boy Soldier", "book": 1}, "finished": 2013},
+    {"name":"The True Meaning of Smekday", "author": "Adam Rex", "series": {"name": "Smek Smeries", "book": 1}, "finished": 2013},
+    {"name":"Z", "author": "Michael Thomas Ford", "finished": 2013},
+    {"name":"The Tomorrow Code", "author": "Brian Falkner", "finished": 2013},
+    {"name":"The Water Wars", "author": "Cameron Stracher", "finished": 2013},		
     
     {"name":"Gone", "author":"Michael Grant", "series": {"name": "Gone", "book": 1}, "finished": 2013},
     {"name":"Lies", "author":"Michael Grant", "series": {"name": "Gone", "book": 2}, "finished": 2013},
@@ -630,6 +630,7 @@ let books = [
     {"name":"So Long, and Thanks for All the Fish", "author":"Douglas Adams", "series":{"name":"The Hitchhiker's Guide to the Galaxy", "book":4}, "finished": 2014},
     {"name":"Mostly Harmless", "author":"Douglas Adams", "series":{"name":"The Hitchhiker's Guide to the Galaxy", "book":5}, "finished": 2014},
     {"name":"The Curious Incident of the Dog in the Night-Time", "author":"Mark Haddon", "finished": 2014},
+    {"name":"Code Name Verity", "author": "Elizabeth Wein", "finished": 2014},
     
     {"name": "Reckless", "author": "Cornelia Funke", "series": {"name": "Mirrorworld", "book": 1}, "finished": 2014},
     {"name": "Inkheart", "author": "Cornelia Funke", "series": {"name": "Inkheart", "book": 1}, "finished": 2014},
@@ -704,14 +705,14 @@ let books = [
 	{"name":"Zig Zag", "author": "José Carlos Somoza", "finished": 2015},
 	{"name":"Crusade", "author": "Elizabeth Laird", "finished": 2015},
 	
-	{"name": "The Maze Runner", "author": "James Dashner", "series": {"name": "The Maze Runner", "book": 1}, "finished": 2015},
-	{"name": "The Scorch Trials", "author": "James Dashner", "series": {"name": "The Maze Runner", "book": 2}, "finished": 2015},
-	{"name": "The Death Cure", "author": "James Dashner", "series": {"name": "The Maze Runner", "book": 3}, "finished": 2015},
-	{"name": "The Divide", "author": "Elizabeth Kay", "series": {"name": "The Divide", "book": 3}, "finished": 2015},
+	{"name":"The Maze Runner", "author": "James Dashner", "series": {"name": "The Maze Runner", "book": 1}, "finished": 2015},
+	{"name":"The Scorch Trials", "author": "James Dashner", "series": {"name": "The Maze Runner", "book": 2}, "finished": 2015},
+	{"name":"The Death Cure", "author": "James Dashner", "series": {"name": "The Maze Runner", "book": 3}, "finished": 2015},
+	{"name":"The Divide", "author": "Elizabeth Kay", "series": {"name": "The Divide", "book": 3}, "finished": 2015},
 
-	{"name": "Across the Universe", "author": "Beth Revis", "series": {"name": "Across the Universe", "book": 1}, "finished": 2015},
-	{"name": "A Million Suns", "author": "Beth Revis", "series": {"name": "Across the Universe", "book": 2}, "finished": 2015},
-	{"name": "Shades of Earth", "author": "Beth Revis", "series": {"name": "Across the Universe", "book": 3}, "finished": 2015},	
+	{"name":"Across the Universe", "author": "Beth Revis", "series": {"name": "Across the Universe", "book": 1}, "finished": 2015},
+	{"name":"A Million Suns", "author": "Beth Revis", "series": {"name": "Across the Universe", "book": 2}, "finished": 2015},
+	{"name":"Shades of Earth", "author": "Beth Revis", "series": {"name": "Across the Universe", "book": 3}, "finished": 2015},	
     
 	{"name":"The Name of the Wind", "author":"Patrick Rothfuss", "series":{"name":"The Kingkiller Chronicles", "book": 1}, "finished": 2015},
     {"name":"The Wise Man's Fear", "author":"Patrick Rothfuss", "series":{"name":"The Kingkiller Chronicles", "book": 2}, "finished": 2015},
@@ -729,19 +730,19 @@ let books = [
 	{"name":"To Kill a Mockingbird", "author":"Harper Lee", "finished": 2015},
 	{"name":"Looking for Alaska", "author":"John Green", "finished": 2015},
 	{"name":"The Immortal Life of Henrietta Lacks", "author":"Rebecca Skloot", "finished": 2015},
-	{"name": "The Elegance of the Hedgehog", "author": "Muriel Barbery", "finished": 2015},
-	{"name": "Tomorrow, When the War Began", "author": "John Marsden", "series": {"name": "Tomorrow", "book": 1}, "finished": 2015},
-	{"name": "One Night @ The Call Center", "author": "Chetan Bhagat", "finished": 2015},
-	{"name": "Secret Letters from the Monk Who Sold His Ferrari", "author": "Robin Sharma", "finished": 2015},	
-	{"name": "I Am The Cheese", "author": "Robert Cormier", "finished": 2015},
+	{"name":"The Elegance of the Hedgehog", "author": "Muriel Barbery", "finished": 2015},
+	{"name":"Tomorrow, When the War Began", "author": "John Marsden", "series": {"name": "Tomorrow", "book": 1}, "finished": 2015},
+	{"name":"One Night @ The Call Center", "author": "Chetan Bhagat", "finished": 2015},
+	{"name":"Secret Letters from the Monk Who Sold His Ferrari", "author": "Robin Sharma", "finished": 2015},	
+	{"name":"I Am The Cheese", "author": "Robert Cormier", "finished": 2015},
 	
 	{"name":"Naruto", "author":"Masashi Kishimoto", "finished": 2015},
 
-	{"name": "The Princess Bride", "author": "William Goldman", "finished": 2015},
+	{"name":"The Princess Bride", "author": "William Goldman", "finished": 2015},
 	{"name":"The Martian", "author":"George Orwell", "finished": 2015},
 	{"name":"The Alchemist", "author":"Paulo Coelho", "finished": 2015}, 
 	{"name":"1984", "author":"George Orwell", "finished": 2015},
-	{"name": "Battle Hymn of the Tiger Mother", "author": "Amy Chua", "finished": 2015},
+	{"name":"Battle Hymn of the Tiger Mother", "author": "Amy Chua", "finished": 2015},
 	{"name":"I'll Give You the Sun", "author":"Jandy Nelson", "finished": 2016},
     
     //End of Middle School
@@ -777,6 +778,7 @@ let books = [
 	{"name":"Because Internet", "author":"Gretchen McCulloch", "finished": 2019},
 	{"name":"Persepolis", "author":"Marjane Satrapi", "count":2, "finished": 2019},
 	{"name":"Blood, Sweat, and Pixels: The Triumphant, Turbulent Stories Behind How Video Games Are Made", "author":"Jason Schreier", "finished": 2019},
+    
     "High School",
     {"name":"Good Omens", "author":"Terry Pratchett and Neil Gaiman", "finished": 2020},
     {"name":"The Colour of Magic", "author":"Terry Pratchett", "series":{"name":"Discworld", "book":1}, "finished": 2020},
@@ -820,7 +822,9 @@ let books = [
 	{"name":"The Story of the Lost Child", "author":"Elena Ferrante", "series":{"name":"Neopolitan Novels", "book":4}, "finished": "2021-03-14"},
 	{"name":"One Piece", "author":"Eiichiro Oda", "started": "2021-03-15", "progress": {"chapter": 213}},
 	
-    {"name":"The First Law", "author":"Joe Abercombie", "series":{"name":"The First Law", "book":1}, "started": "2021-03-28", "finished": "2021-04-03"},
+    {"name":"The Blade Itself", "author":"Joe Abercombie", "series":{"name":"The First Law", "book":1}, "started": "2021-03-28", "finished": "2021-04-03"},
+    {"name":"Before They Are Hanged", "author":"Joe Abercombie", "series":{"name":"The First Law", "book":2}, "started": "2021-04-04", "finished": "2021-04-13"},
+    {"name":"Last Argument of Kings", "author":"Joe Abercombie", "series":{"name":"The First Law", "book":3}, "started": "2021-04-15"},
 
     "2021"
 ]
