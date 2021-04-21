@@ -392,7 +392,7 @@ let tv = [
     {"name":"I Think You Should Leave", "seasons":1},
     {"name":"It's Always Sunny in Philadelphia", "seasons":14, "abandoned":4, "unwatched":[5, 6, 7, 8, 9, 10, 11, 12, 13, 14]},
     {"name":"Jojo's Bizarre Adventure", "seasons":5, "watches":{1:2}},
-    {"name":"Lost", "seasons":6, "unfinished": 3, "unwatched": [4, 5, 6]},
+    {"name":"Lost", "seasons":6, "unwatched": [4, 5, 6]},
     {"name":"Lovesick", "seasons":3},
     {"name":"Lucifer", "seasons":6, "abandoned":4, "unwatched":[5, 6]},
     {"name":"Lupin", "seasons":1, "unfinished":1},
@@ -824,7 +824,7 @@ let books = [
 	
     {"name":"The Blade Itself", "author":"Joe Abercombie", "series":{"name":"The First Law", "book":1}, "started": "2021-03-28", "finished": "2021-04-03"},
     {"name":"Before They Are Hanged", "author":"Joe Abercombie", "series":{"name":"The First Law", "book":2}, "started": "2021-04-04", "finished": "2021-04-13"},
-    {"name":"Last Argument of Kings", "author":"Joe Abercombie", "series":{"name":"The First Law", "book":3}, "started": "2021-04-15"},
+    {"name":"Last Argument of Kings", "author":"Joe Abercombie", "series":{"name":"The First Law", "book":3}, "started": "2021-04-15", "finished": "2021-04-20"},
 
     "2021"
 ]
