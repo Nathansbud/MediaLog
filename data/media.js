@@ -356,7 +356,7 @@ let tv = [
     {"name":"Arrested Development", "seasons":3, "watches":{1:2, 2:2, 3:2}},
     {"name":"Atlanta", "seasons":2},
     {"name":"Attack on Titan", "seasons":4, "unfinished": 4},
-    {"name":"Barry", "seasons":2, "unwatched":[2]},
+    {"name":"Barry", "seasons":2, "unfinished":2},
     {"name":"Better Off Ted", "seasons":2},
     {"name":"Big Brother", "seasons":21, "unwatched":[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 17, 21]},
     {"name":"Big Mouth", "seasons":4},
@@ -376,7 +376,7 @@ let tv = [
     {"name":"The End of the F***ing World", "seasons":2, "unwatched":[2], "watches":{1:2}},
     {"name":"Fleabag", "seasons":2, "watches":{1:3, 2:2}},
     {"name":"Freaks and Geeks", "seasons":1},
-    {"name":"For All Mankind", "seasons":2, "unfinished":2},
+    {"name":"For All Mankind", "seasons":2},
     {"name":"Fullmetal Alchemist: Brotherhood", "seasons":1},
     {"name":"Glee", "seasons":6, "unwatched":[5, 6]},
 	{"name":"Go On", "seasons":1, "watches":{1:5}},
@@ -392,7 +392,7 @@ let tv = [
     {"name":"I Think You Should Leave", "seasons":1},
     {"name":"It's Always Sunny in Philadelphia", "seasons":14, "abandoned":4, "unwatched":[5, 6, 7, 8, 9, 10, 11, 12, 13, 14]},
     {"name":"Jojo's Bizarre Adventure", "seasons":5, "watches":{1:2}},
-    {"name":"Lost", "seasons":6, "unwatched": [4, 5, 6]},
+    {"name":"Lost", "seasons":6, "unfinished":4, "unwatched": [5, 6]},
     {"name":"Lovesick", "seasons":3},
     {"name":"Lucifer", "seasons":6, "abandoned":4, "unwatched":[5, 6]},
     {"name":"Lupin", "seasons":1, "unfinished":1},
@@ -825,6 +825,6 @@ let books = [
     {"name":"The Blade Itself", "author":"Joe Abercombie", "series":{"name":"The First Law", "book":1}, "started": "2021-03-28", "finished": "2021-04-03"},
     {"name":"Before They Are Hanged", "author":"Joe Abercombie", "series":{"name":"The First Law", "book":2}, "started": "2021-04-04", "finished": "2021-04-13"},
     {"name":"Last Argument of Kings", "author":"Joe Abercombie", "series":{"name":"The First Law", "book":3}, "started": "2021-04-15", "finished": "2021-04-20"},
-
+    {"name":"Lords and Ladies", "author":"Terry Pratchett", "series":{"name":"Discworld", "book":14}, "started": "2021-04-21", "finished": "2021-04-25"},
     "2021"
 ]
