@@ -36,6 +36,7 @@ let movies = [
     {"name":"The Blind Side"},  
     {"name":"Bo Burnham: what."},
     {"name":"Bo Burnham: Make Happy"},
+    {"name":"Bo Burnham: Inside"},
     {"name":"Bohemian Rhapsody"},
     {"name":"Bolt"},
     {"name":"Booksmart", "watches":3},
@@ -136,6 +137,7 @@ let movies = [
     {"name":"Hasan Minhaj: Homecoming King", "watches":2},
     {"name":"Herbie Fully Loaded"},
     {"name":"Hidden Figures"},
+    {"name":"High Fidelity"},
     {"name":"High School Musical"},
     {"name":"High School Musical 2", "watches":3},
     {"name":"High School Musical 3"},
@@ -356,7 +358,7 @@ let tv = [
     {"name":"American Vandal", "seasons":2},
     {"name":"Awkward", "seasons":5, "abandoned":4, "unwatched":[5]},
     {"name":"Archer", "seasons":10, "abandoned":8, "unwatched":[9, 10]},
-    {"name":"Arrested Development", "seasons":3, "watches":{1:2, 2:2, 3:2}},
+    {"name":"Arrested Development", "seasons":5, "watches":{1:2, 2:2, 3:2}, "unwatched": [4, 5]},
     {"name":"Atlanta", "seasons":2},
     {"name":"Attack on Titan", "seasons":4, "unfinished": 4},
     {"name":"Barry", "seasons":2},
@@ -398,7 +400,7 @@ let tv = [
     {"name":"It's Always Sunny in Philadelphia", "seasons":14, "abandoned":4, "unwatched":[5, 6, 7, 8, 9, 10, 11, 12, 13, 14]},
     {"name":"Jojo's Bizarre Adventure", "seasons":5, "watches":{1:2}},
     {"name":"Lost", "seasons":6},
-    {"name":"Lovesick", "seasons":3},
+    {"name":"Lovesick", "seasons":3, "watches":{1:2, 2:2, 3:2}},
     {"name":"Lucifer", "seasons":6, "abandoned":4, "unwatched":[5, 6]},
     {"name":"Lupin", "seasons":1, "unfinished":1},
     {"name":"Made In Abyss", "seasons":1},
@@ -836,5 +838,9 @@ let books = [
     {"name":"The Wretched of the Earth", "author":"Frantz Fanon", "started": "2021-04-26", "finished": "2021-05-06"},
     {"name":"Men at Arms", "author":"Terry Pratchett", "series":{"name":"Discworld", "book":15}, "started": "2021-05-07", "finished": "2021-05-11"},		
     {"name":"Moby Dick", "author":"Herman Melville", "started": "2021-05-12", "finished": "2021-05-26"},		
+
+    {"name":"Soul Music", "author":"Terry Pratchett", "series":{"name":"Discworld", "book":16}, "started": "2021-05-26", "finished": "2021-06-01"},
+    {"name":"Catcher in the Rye", "author":"J. D. Salinger", "started": "2021-06-02", "finished": "2021-06-03"},
+    {"name":"This is Going to Hurt", "author":"Adam Kay", "started":"2021-06-04", "finished": "2021-06-06"}
     "2021"
 ]
