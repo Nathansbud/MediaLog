@@ -399,6 +399,8 @@ let tv = [
     {"name":"Invincible", "seasons":1},
     {"name":"It's Always Sunny in Philadelphia", "seasons":14, "abandoned":4, "unwatched":[5, 6, 7, 8, 9, 10, 11, 12, 13, 14]},
     {"name":"Jojo's Bizarre Adventure", "seasons":5, "watches":{1:2}},
+    {"name":"Jujutsu Kaisen", "seasons":1},
+    {"name":"Kaguya-sama: Love Is War", "seasons":2, "unwatched":2},
     {"name":"Lost", "seasons":6},
     {"name":"Lovesick", "seasons":3, "watches":{1:2, 2:2, 3:2}},
     {"name":"Lucifer", "seasons":6, "abandoned":4, "unwatched":[5, 6]},
@@ -841,6 +843,8 @@ let books = [
 
     {"name":"Soul Music", "author":"Terry Pratchett", "series":{"name":"Discworld", "book":16}, "started": "2021-05-26", "finished": "2021-06-01"},
     {"name":"Catcher in the Rye", "author":"J. D. Salinger", "started": "2021-06-02", "finished": "2021-06-03"},
-    {"name":"This is Going to Hurt", "author":"Adam Kay", "started":"2021-06-04", "finished": "2021-06-06"}
+    {"name":"This is Going to Hurt", "author":"Adam Kay", "started":"2021-06-04", "finished": "2021-06-06"},
+    {"name":"The Stranger", "author":"Albert Camus", "started":"2021-06-07", "finished": "2021-06-09"},
+    {"name":"The Trial", "author":"Franz Kafka", "started":"2021-06-11", "finished": "2021-06-16"},
     "2021"
 ]
