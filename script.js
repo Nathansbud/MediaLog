@@ -77,7 +77,9 @@ window.onload = () => {
             else if(t.abandoned == i || (Array.isArray(t.abandoned) && t.abandoned?.includes(i))) {
                 sn.classList.add('abandoned')
             } 
-            else if(t.unwatched?.includes(i)) sn.classList.add('unwatched')
+            else if(t.unwatched && ((Array.isArray(t.unwatched) && t.unwatched.includes(i)) || t.unwatched == i))  {
+                sn.classList.add('unwatched')
+            }
             else sn.classList.add('saw')
 
             tooltipDiv.appendChild(sn)
