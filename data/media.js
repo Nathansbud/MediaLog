@@ -60,6 +60,7 @@ let movies = [
     {"name":"Click"},
     {"name":"Cloudy With a Chance of Meatballs"},
     {"name":"Cloudy With a Chance of Meatballs 2"},
+    {"name":"Clueless"},
     {"name":"Coco"},
     {"name":"The Courier"},
     {"name":"Cyberbully"},
@@ -134,7 +135,7 @@ let movies = [
     {"name":"Harry Potter and the Order of the Phoenix"},
     {"name":"Harry Potter and the Half-Blood Prince"},
     {"name":"Harry Potter and the Deathly Hallows — Part 1"},
-    {"name":"Harry Potter and the Deathly Hallows — Part 2"},
+    {"name":"Harry Potter and the Deathly Hallows – Part 2"},
     {"name":"Hasan Minhaj: Homecoming King", "watches":2},
     {"name":"Herbie Fully Loaded"},
     {"name":"Hidden Figures"},
@@ -195,6 +196,7 @@ let movies = [
     {"name":"The Lego Batman Movie"},
     {"name":"The Lego Movie"},
     {"name":"The Lego Movie 2: The Second Part"},
+    {"name":"The Lincoln Lawyer"},
     {"name":"The Lion King"},
     {"name":"The Little Mermaid"},
     {"name":"Little Miss Sunshine", "watches": 2},
@@ -253,6 +255,7 @@ let movies = [
     {"name":"The Pacifier"},
     {"name":"Palm Springs"},
     {"name":"ParaNorman"},
+    {"name":"Parasite"},
     {"name":"Parent Trap"},
     {"name":"Percy Jackson & The Lightning Thief"},
     {"name":"The Perfect Date"},
@@ -417,6 +420,7 @@ let tv = [
     {"name":"Modern Family", "seasons":11, "unwatched":[7, 8, 9, 10, 11]},
     {"name":"My Hero Academia", "seasons":5, "unfinished":5},
     {"name":"Never Have I Ever", "seasons":2, "abandoned":2},
+    {"name":"Odd Taxi", "seasons":1},
     {"name":"The Office", "seasons":9, "abandoned":6, "unwatched":[1, 7, 8, 9]},
     {"name":"One Punch Man", "seasons":2, "watches":{1:3}, "abandoned":2},
     {"name":"Parks and Recreation", "seasons":7, "abandoned":6, "unwatched":[7]},
@@ -430,7 +434,8 @@ let tv = [
     {"name":"Stranger Things", "seasons":3},
     {"name":"Steins;Gate", "seasons":1},
     {"name":"Steins;Gate 0", "seasons":1},
-    {"name":"Succession", "seasons":2},
+    {"name":"Squid Game", "seasons":1, "unfinished":1},
+    {"name":"Succession", "seasons":3, "watches":{1:2}, "unfinished":3},
     {"name":"Sweet Tooth", "seasons":1},
     {"name":"Ted Lasso", "seasons":2, "unfinished": 2, "watches":{1: 2}},
     {"name":"Tiger King", "seasons":1},		
@@ -438,8 +443,9 @@ let tv = [
     {"name":"Toast of London", "seasons":3},
     {"name":"Undone", "seasons":1},
     {"name":"Video Game High School", "seasons":3},
-    {"name":"The Wire", "seasons":5, "unfinished": 4, "unwatched":[5]},
-    {"name":"What We Do in the Shadows", "seasons":2, "watches":{1:2}}
+    {"name":"What We Do in the Shadows", "seasons":3, "watches":{1:2}, "unfinished":3},
+    {"name":"The Wire", "seasons":5},
+    {"name":"The White Lotus", "seasons": 1}
 ]
 //Watched TV Shows
 
@@ -791,7 +797,7 @@ let books = [
 	{"name":"Born a Crime", "author":"Trevor Noah", "finished": 2019}, 
 	{"name":"Because Internet", "author":"Gretchen McCulloch", "finished": 2019},
 	{"name":"Persepolis", "author":"Marjane Satrapi", "count":2, "finished": 2019},
-	{"name":"Blood, Sweat, and Pixels: The Triumphant, Turbulent Stories Behind How Video Games Are Made", "author":"Jason Schreier", "finished": 2019},
+	{"name":"Blood, Sweat, and Pixels", "author":"Jason Schreier", "finished": 2019},
     
     "High School",
     {"name":"Good Omens", "author":"Terry Pratchett and Neil Gaiman", "finished": 2020},
@@ -854,8 +860,11 @@ let books = [
 
     {"name":"Brave New World", "author":"Aldous Huxley", "started":"2021-06-28", "finished": "2021-07-09"},
     {"name":"Maskerade", "author":"Terry Pratchett", "series":{"name":"Discworld", "book":18}, "started":"2021-07-15", "finished": "2021-07-20"},
-
+    
+    {"name":"The Seven Husbands of Evelyn Hugo", "author":"Taylor Jenkins Reid", "started": "2021-07-24", "finished": "2021-08-02"},
+    {"name":"Press Reset", "author":"Jason Schreier", "started": "2021-08-02", "finished": "2021-08-07"}
+    {"name":"Feet of Clay", "author":"Terry Pratchett", "series":{"name":"Discworld", "book":19}, "started":"2021-08-09", "finished": "2021-08-15"},
+    {"name":"Pachinko", "author": "Min Jin Lee", "started": "2021-08-16", "finished": "2021-08-21"},
+    {"name":"Hogfather", "author":"Terry Pratchett", "series":{"name":"Discworld", "book":20}, "started":"2021-08-22"},
     "2021"
-
-
 ]
