@@ -862,7 +862,7 @@ let books = [
     {"name":"Maskerade", "author":"Terry Pratchett", "series":{"name":"Discworld", "book":18}, "started":"2021-07-15", "finished": "2021-07-20"},
     
     {"name":"The Seven Husbands of Evelyn Hugo", "author":"Taylor Jenkins Reid", "started": "2021-07-24", "finished": "2021-08-02"},
-    {"name":"Press Reset", "author":"Jason Schreier", "started": "2021-08-02", "finished": "2021-08-07"}
+    {"name":"Press Reset", "author":"Jason Schreier", "started": "2021-08-02", "finished": "2021-08-07"},
     {"name":"Feet of Clay", "author":"Terry Pratchett", "series":{"name":"Discworld", "book":19}, "started":"2021-08-09", "finished": "2021-08-15"},
     {"name":"Pachinko", "author": "Min Jin Lee", "started": "2021-08-16", "finished": "2021-08-21"},
     {"name":"Hogfather", "author":"Terry Pratchett", "series":{"name":"Discworld", "book":20}, "started":"2021-08-22"},
