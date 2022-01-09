@@ -47,7 +47,7 @@ ul.nav li a:hover {
 }
 
 .unfinished {
-  color: purple;
+  color: orange;
 }
 
 .abandoned {
@@ -64,7 +64,7 @@ ul.nav li a:hover {
 }
 
 .watched {
-  color: orange;
+  color: purple;
 }
 
 .saw {
