@@ -68,6 +68,7 @@ let movies = [
     {"name":"C'mon, C'mon"},
     {"name":"Coco"},
     {"name":"The Courier"},
+    {"name":"Crazy Rich Asians"},
     {"name":"Cyberbully"},
     {"name":"Daddy Day Care"},
     {"name":"The Dark Knight"},
@@ -266,6 +267,7 @@ let movies = [
     {"name":"Outsourced"},
     {"name":"Over the Hedge"},
     {"name":"The Pacifier"},
+    {"name":"Paddington 2"},
     {"name":"Palm Springs"},
     {"name":"ParaNorman"},
     {"name":"Parasite"},
@@ -463,6 +465,7 @@ let tv = [
     {"name":"Patriot Act", "seasons":6},
     {"name":"The Politician", "seasons":2, "unwatched":[2]},
     {"name":"PEN15", "seasons":2, "abandoned":2},
+    {"name":"The Promised Neverland", "seasons":2, "unwatched":[2]},  
     {"name":"Ramy", "seasons":2},
     {"name":"Rick & Morty", "seasons":5},
     {"name":"The Righteous Gemstones", "seasons":2},
@@ -916,9 +919,10 @@ let books = [
     {"name":"Feet of Clay", "author":"Terry Pratchett", "series":{"name":"Discworld", "book":19}, "started":"2021-08-09", "finished": "2021-08-15"},
     {"name":"Pachinko", "author": "Min Jin Lee", "started": "2021-08-16", "finished": "2021-08-21"},
     {"name":"Hogfather", "author":"Terry Pratchett", "series":{"name":"Discworld", "book":20}, "started":"2021-08-22"},
-    "2021"
+    "2021",
 
     {"name":"High School", "author":"Sara Quin and Tegan Quin", "started": "2022-06-09", "finished": "2021-06-10"},
     {"name":"Anxious People", "author":"Fredrik Backman", "started": "2022-06-11", "finished": "2021-06-12"},
+    {"name":"Solutions and Other Problems", "author":"Allie Borsh", "started": "2022-07-29", "finished": "2022-07-29"},
     "2022"
 ]
