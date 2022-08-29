@@ -494,7 +494,7 @@ let tv = [
     {"name":"Undone", "seasons":1},
     {"name":"Video Game High School", "seasons":3},
     {"name":"This Way Up", "seasons":2},
-    {"name":"What We Do in the Shadows", "seasons":3, "watches":{1:2}},
+    {"name":"What We Do in the Shadows", "seasons":4, "watches":{1:2}, "unfinished": 4},
     {"name":"The Wire", "seasons":5},
     {"name":"The White Lotus", "seasons": 1}
 ]
