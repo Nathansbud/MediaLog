@@ -96,7 +96,7 @@ let movies = [
     {"name":"Enchanted"},
     {"name":"Ender's Game"},
     {"name":"Eric Andre: Legalize Everything"},
-    {"name":"Everything Everywhere All At Once"},
+    {"name":"Everything Everywhere All At Once", "watches":3},
     {"name":"Evil Dead 2"},
     {"name":"Fargo"},
     {"name":"Fatman"},
@@ -394,7 +394,7 @@ let tv = [
     {"name":"Arcane", "seasons": 1},
     {"name":"Archer", "seasons":10, "abandoned":8, "unwatched":[9, 10]},
     {"name":"Arrested Development", "seasons":5, "watches":{1:2, 2:2, 3:2}, "unwatched": [4, 5]},
-    {"name":"Atlanta", "seasons":3, "abandoned":3},
+    {"name":"Atlanta", "seasons":4},
     {"name":"Attack on Titan", "seasons":4},
     {"name":"Barry", "seasons":3},
     {"name":"The Bear", "seasons":1},
@@ -406,7 +406,7 @@ let tv = [
     {"name":"The Boys", "seasons":3},
     {"name":"Bridgerton", "seasons":1},
     {"name":"Brooklyn Nine-Nine", "seasons":6, "abandoned":2, "unwatched":[3, 4, 5, 6]},
-    {"name":"Chainsaw Man", "seasons":1, "unfinished":1},
+    {"name":"Chainsaw Man", "seasons":1},
     {"name":"Chernobyl", "seasons":1},
     {"name":"Chihayafuru", "seasons":3},
     {"name":"Community", "seasons":6, "watches":{1:4, 2:4, 3:4, 4:1, 5:2}},
@@ -452,7 +452,7 @@ let tv = [
     {"name":"Master of None", "seasons":3, "watches":{1:4, 2:3}},
     {"name":"Middleditch & Schwartz", "seasons":1},
     {"name":"The Midnight Gospel", "seasons":1},
-    {"name":"Mob Psycho 100", "seasons":3, "watches":{1:3}, "unfinished":3},
+    {"name":"Mob Psycho 100", "seasons":3, "watches":{1:3}},
     {"name":"Modern Family", "seasons":11, "unwatched":[7, 8, 9, 10, 11]},
     {"name":"My Hero Academia", "seasons":5, "abandoned":5},
     {"name":"Never Have I Ever", "seasons":2, "abandoned":2},
@@ -919,7 +919,8 @@ let books = [
     {"name":"Hogfather", "author":"Terry Pratchett", "series":{"name":"Discworld", "book":20}, "started":"2021-08-22"},
     "2021"
 
-    {"name":"High School", "author":"Sara Quin and Tegan Quin", "started": "2022-06-09", "finished": "2021-06-10"},
-    {"name":"Anxious People", "author":"Fredrik Backman", "started": "2022-06-11", "finished": "2021-06-12"},
+    {"name":"High School", "author":"Sara Quin and Tegan Quin", "started": "2022-06-09", "finished": "2022-06-10"},
+    {"name":"Anxious People", "author":"Fredrik Backman", "started": "2022-06-11", "finished": "2022-06-12"},
+    {"name":"No One Is Talking About This", "started":"2022-12-20", "finished": "2022-12-20"},
     "2022"
 ]
