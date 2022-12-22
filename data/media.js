@@ -932,6 +932,6 @@ let books = [
     {"name":"High School", "author":"Sara Quin and Tegan Quin", "started": "2022-06-09", "finished": "2022-06-10"},
     {"name":"Anxious People", "author":"Fredrik Backman", "started": "2022-06-11", "finished": "2022-06-12"},
     {"name":"Solutions and Other Problems", "author":"Allie Borsh", "started": "2022-07-29", "finished": "2022-07-29"},
-    {"name":"No One Is Talking About This", "started":"2022-12-20", "finished": "2022-12-20"},
+    {"name":"No One Is Talking About This", "author": "Patricia Lockwood", "started":"2022-12-20", "finished": "2022-12-20"},
     "2022"
 ]
