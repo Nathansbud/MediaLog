@@ -933,5 +933,9 @@ let books = [
     {"name":"Anxious People", "author":"Fredrik Backman", "started": "2022-06-11", "finished": "2022-06-12"},
     {"name":"Solutions and Other Problems", "author":"Allie Borsh", "started": "2022-07-29", "finished": "2022-07-29"},
     {"name":"No One Is Talking About This", "author": "Patricia Lockwood", "started":"2022-12-20", "finished": "2022-12-20"},
-    "2022"
+    "2022",
+
+    {"name":"Such a Fun Age", "author": "Kiley Reid", "started": "2023-01-02", "finished": "2023-01-02"},
+    {"name":"Normal People", "author": "Sally Rooney", "started": "2023-01-06", "finished": "2023-01-06"},
+    "2023"
 ]
