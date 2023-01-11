@@ -415,6 +415,7 @@ let tv = [
     {"name":"Better Off Ted", "seasons":2},
     {"name":"Big Brother", "seasons":21, "unwatched":[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 17, 21]},
     {"name":"Big Mouth", "seasons":4},
+    {"name":"Bocci the Rock!", "seasons":6},
     {"name":"Bojack Horseman", "seasons":6},
     {"name":"The Boys", "seasons":3},
     {"name":"Bridgerton", "seasons":1},
@@ -452,7 +453,7 @@ let tv = [
     {"name":"Invincible", "seasons":1},
     {"name":"It's Always Sunny in Philadelphia", "seasons":14, "unwatched":[5, 6, 7, 8, 9, 10, 11, 12, 13, 14]},
     {"name":"James Acaster: Repetoire", "seasons":1},
-    {"name":"Jojo's Bizarre Adventure", "seasons":6, "watches":{1:2}, "unfinished": 6},
+    {"name":"Jojo's Bizarre Adventure", "seasons":6, "watches":{1:2}},
     {"name":"Jujutsu Kaisen", "seasons":1},
     {"name":"Kaguya-sama: Love Is War", "seasons":3},
     {"name":"Living With Yourself", "seasons":1},
@@ -503,7 +504,7 @@ let tv = [
     {"name":"This Way Up", "seasons":2},
     {"name":"What We Do in the Shadows", "seasons":4, "watches":{1:2}},
     {"name":"The Wire", "seasons":5},
-    {"name":"The White Lotus", "seasons": 1}
+    {"name":"The White Lotus", "seasons": 2}
 ]
 //Watched TV Shows
 
