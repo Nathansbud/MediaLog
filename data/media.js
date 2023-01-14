@@ -480,6 +480,7 @@ let tv = [
     {"name":"PEN15", "seasons":2, "abandoned":2},
     {"name":"The Promised Neverland", "seasons":2, "unwatched":[2]},  
     {"name":"Ramy", "seasons":2},
+    {"name":"Reservation Dogs", "seasons":2, "unwatched":[2]},
     {"name":"Rick & Morty", "seasons":5},
     {"name":"The Righteous Gemstones", "seasons":2},
     {"name":"Severance", "seasons": 1},
