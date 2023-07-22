@@ -15,6 +15,9 @@ String.prototype.removeStart = function(ss) {
 }
 
 const nameSort = (a, b) => {
+    if(typeof a === 'string') return 1;
+    if(typeof b === 'string') return 1;
+    
     const aa = a.name.toLowerCase().removeStart("the ")
     const ba = b.name.toLowerCase().removeStart("the ")
     return (aa > ba) * 1 + (aa < ba) * -1
@@ -24,28 +27,45 @@ window.onload = () => {
     movies.sort(nameSort)
     tv.sort(nameSort)
     
-    movies.forEach(m => {
-        const elem = document.createElement("li")
-        elem.classList.add("movie-item", "item")
-        elem.dataset.name = m.name.toLowerCase()
+    movies.forEach((m, i) => {
+        if(typeof m !== 'string') {
+            const elem = document.createElement("li")
+            elem.classList.add("movie-item", "item")
+            elem.dataset.name = m.name.toLowerCase()
 
-        const tooltipDiv = document.createElement('div')
-        tooltipDiv.className = 'tooltip'
+            const tooltipDiv = document.createElement('div')
+            tooltipDiv.className = 'tooltip'
 
-        const elemName = document.createElement('span')
-        elemName.textContent = m.name
+            const elemName = document.createElement('span')
+            elemName.textContent = m.name
 
-        tooltipDiv.appendChild(elemName)
-        if('watches' in m) {
-            const tt = document.createElement('span')
-            tt.className = 'tooltiptext'
-            tt.textContent = `Watches: ${m.watches}`
-            tooltipDiv.appendChild(tt)
-            elem.classList.add("rewatched")
-        } 
+            tooltipDiv.appendChild(elemName)
+            if('watches' in m) {
+                const tt = document.createElement('span')
+                tt.className = 'tooltiptext'
+                tt.textContent = `Watches: ${m.watches}`
+                tooltipDiv.appendChild(tt)
+                elem.classList.add("rewatched")
+            } 
 
-        elem.appendChild(tooltipDiv)
-        movieList.appendChild(elem)    
+            elem.appendChild(tooltipDiv)
+            movieList.appendChild(elem)
+        } else {
+            const periodDiv = document.createElement('div')
+            const hr = document.createElement("hr")
+            const header = document.createElement("h3")
+            
+            header.innerHTML = m
+            
+            if(i !== 0) {
+                periodDiv.append(hr, header)
+            } else {
+                periodDiv.append(header)
+            }
+            periodDiv.classList.add('period_header')
+            periodDiv.dataset.period = m
+            movieList.append(periodDiv)
+        }
     })
     
     tv.forEach(t => {

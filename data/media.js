@@ -1,4 +1,5 @@
 let movies = [
+    "I use Letterboxd now, so <a href='https://letterboxd.com/nathansbud/'>head over there</a> for up-to-date media logs!",
     {"name":"9"},
     {"name":"13 Going on 30"},
     {"name":"17 Again", "watches": 2},
@@ -407,7 +408,7 @@ let movies = [
 ]
 //Watched Movies
 let tv = [
-    {"name":"Abbott Elementary", "seasons":2, "unfinished":2},
+    {"name":"Abbott Elementary", "seasons":2},
     {"name":"Anohana: The Flower We Saw That Day", "seasons":1},
     {"name":"American Vandal", "seasons":2},
     {"name":"Awkward", "seasons":5, "abandoned":4, "unwatched":[5]},
@@ -417,7 +418,7 @@ let tv = [
     {"name":"Atlanta", "seasons":4},
     {"name":"Attack on Titan", "seasons":4},
     {"name":"Barry", "seasons":4},
-    {"name":"The Bear", "seasons":1},
+    {"name":"The Bear", "seasons":2},
     {"name":"Beastars", "seasons":2},
     {"name":"Beef", "seasons":1},
     {"name":"Better Off Ted", "seasons":2},
