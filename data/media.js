@@ -460,11 +460,11 @@ let tv = [
     {"name":"How To Sell Drugs Online (Fast)", "seasons":2},
     {"name":"I Am Not Okay With This", "seasons":1},
     {"name":"I Think You Should Leave", "seasons":3, "watches":{1:3, 2:2}},
-    {"name":"Invincible", "seasons":1},
+    {"name":"Invincible", "seasons":2, "unfinished": 2},
     {"name":"It's Always Sunny in Philadelphia", "seasons":14, "unwatched":[5, 6, 7, 8, 9, 10, 11, 12, 13, 14]},
     {"name":"James Acaster: Repetoire", "seasons":1},
     {"name":"Jojo's Bizarre Adventure", "seasons":6, "watches":{1:2}},
-    {"name":"Jujutsu Kaisen", "seasons":1},
+    {"name":"Jujutsu Kaisen", "seasons":2},
     {"name":"Kaguya-sama: Love Is War", "seasons":3},
     {"name":"Living With Yourself", "seasons":1},
     {"name":"Lost", "seasons":6},
@@ -472,7 +472,7 @@ let tv = [
     {"name":"Lucifer", "seasons":6, "abandoned":4, "unwatched":[5, 6]},
     {"name":"Lupin", "seasons":2},
     {"name":"Made In Abyss", "seasons":1},
-    {"name":"The Marvelous Mrs. Maisel", "seasons":3, "unwatched":[3]},
+    {"name":"The Marvelous Mrs. Maisel", "seasons":5, "unwatched":[3, 4, 5]},
     {"name":"Master of None", "seasons":3, "watches":{1:4, 2:3}},
     {"name":"Middleditch & Schwartz", "seasons":1},
     {"name":"The Midnight Gospel", "seasons":1},
@@ -488,6 +488,7 @@ let tv = [
     {"name":"Patriot Act", "seasons":6},
     {"name":"The Politician", "seasons":2, "unwatched":[2]},
     {"name":"PEN15", "seasons":2, "abandoned":2},
+    {"name":"Percy Jackson and the Olympians", "seasons":1, "unfinished": 1},
     {"name":"The Promised Neverland", "seasons":2, "unwatched":[2]},  
     {"name":"Ramy", "seasons":2},
     {"name":"Reservation Dogs", "seasons":3},
@@ -955,6 +956,10 @@ let books = [
     {"name":"Normal People", "author": "Sally Rooney", "started": "2023-01-06", "finished": "2023-01-06"},
     {"name":"Hogfather", "author":"Terry Pratchett", "series":{"name":"Discworld", "book":20}, "started": "2023-08-24", "finished":"2023-08-28"},
     {"name":"The Bell Jar", "author":"Sylvia Plath", "started": "2023-09-06", "finished": "2023-09-14"},
+    {"name":"Bone: The Complete Edition", "author":"Jeff Smith", "series":{"name":"Bone"}},
+    {"name":"Jingo", "author":"Terry Pratchett", "series":{"name":"Discworld", "book":21}},
+    "2023",
 
-    "2023"
+    {"name":"Perfect Sound Whatever", "author":"James Acaster", "started": "2024-01-18", "finished": "2024-01-18"},
+    "2024"
 ]
